@@ -70,10 +70,6 @@ Invoke-RestMethod -Uri http://localhost:8080/fruits/getAll
 
 S04T02N01/postman/S04_02_level1_pruebas.postman_collection.json
 
-markdown
-Copiar
-Editar
-
 > Esto cargará la colección con todas las pruebas listas.
 
 # 🧪 Ejecución desde consola H2
@@ -107,8 +103,6 @@ Haz clic en Run tras pegar las sentencias.
 Para ver todas las frutas insertadas:
 
 ```sql
-Copiar
-Editar
 SELECT * FROM FRUIT;
 ```
 4. Notas: 
