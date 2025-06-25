@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "61cf9773-9f8b-4b69-af87-bd6c9c9f52c7",
+		"name": "S04_02_level3_pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45739794"
+	},
+	"item": [
+		{
+			"name": "POST Naranja",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"685bc77f4d90a14505797eed\",\"name\":\"Naranja\",\"kilograms\":10}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/add",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Platano",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\": \"685bcc3b4d90a14505797ef2\",\"name\":\"Platano\",\"kilograms\":7}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/add",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Melocoton",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Melocoton\",\"kilograms\":6}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/add",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Mandarina-Naranja",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":\"685bc77f4d90a14505797eed\",\"name\":\"Mandarina\",\"kilograms\":12}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/update",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET id 685bc77f4d90a14505797eed",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/getOne/685bc77f4d90a14505797eed",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"getOne",
+						"685bc77f4d90a14505797eed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE platano id 685bcc3b4d90a14505797ef2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/delete/685bcc3b4d90a14505797ef2",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"delete",
+						"685bcc3b4d90a14505797ef2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ALL",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/getAll",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
