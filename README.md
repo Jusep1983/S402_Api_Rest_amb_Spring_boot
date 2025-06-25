@@ -43,7 +43,7 @@ Antes de ejecutar cada uno de los niveles del proyecto, asegúrate de tener lo s
 - Postman (opcional pero recomendado)
   
 <details>
-  <summary><strong> ## ✅ Nivel 1 - CRUD con H2 </strong></summary>
+  <summary><strong> ✅ Nivel 1 - CRUD con H2 </strong></summary>
   
 
 ### Pruebas API Frutas con PowerShell
@@ -163,7 +163,7 @@ No puedes probar POST/PUT/DELETE desde aquí, pero sí ver cómo quedan reflejad
   </details>
 
 <details> 
-  <summary><strong> ## ✅ Nivel 2 - CRUD con MySQL </strong></summary>
+  <summary><strong> ✅ Nivel 2 - CRUD con MySQL </strong></summary>
   
 ##  🛠 Crear la base de datos fruits-db en MySQL (necesario antes de ejecutar la app)
 Antes de arrancar la aplicación Spring Boot, asegúrate de que la base de datos fruits-db existe en tu servidor MySQL.
@@ -281,7 +281,7 @@ Solo tienes que copiar y pegar estas direcciones en el navegador y verás la res
 
   </details>
 
-<details> <summary><strong> ## ✅ Nivel 3 - CRUD con MongoDB </strong></summary>
+<details> <summary><strong> ✅ Nivel 3 - CRUD con MongoDB </strong></summary>
   
 
 ## 🧪 Pruebas API con PowerShell
