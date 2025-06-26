@@ -166,6 +166,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "TestErrorNotFound",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}:{{port}}/fruits/getOne/123",
+					"host": [
+						"{{server}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"fruits",
+						"getOne",
+						"123"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

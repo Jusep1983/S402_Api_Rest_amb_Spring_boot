@@ -194,6 +194,14 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "TestErrorNotFound",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
