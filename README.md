@@ -41,7 +41,9 @@ Antes de ejecutar cada uno de los niveles del proyecto, asegúrate de tener lo s
 - Maven
 - IDE como IntelliJ o Eclipse
 - Postman (opcional pero recomendado)
-  
+
+## 🚀 Instrucciones de ejecucion
+
 <details>
   <summary><strong> ✅ Nivel 1 - CRUD con H2 </strong></summary>
   
