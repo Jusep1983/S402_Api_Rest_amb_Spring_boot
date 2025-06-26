@@ -43,7 +43,7 @@ Antes de ejecutar cada uno de los niveles del proyecto, asegúrate de tener lo s
 - Postman (opcional pero recomendado)
 
 ## 🚀 Instrucciones de ejecucion
-
+Dentro de cada carpeta principal de cada nivel (S04T02N01, S04T02N02 y S04T02N03) hay un archivo .md de instrucciones de ejecucion 
 <details>
   <summary><strong> ✅ Nivel 1 - CRUD con H2 </strong></summary>
   
