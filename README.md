@@ -18,8 +18,8 @@ Aprenderás a usar correctamente los verbos HTTP y gestionar los códigos de res
 ---
 ## 🛠️ Tecnologías utilizadas
 
-- Java (versión mínima 11)
-- Spring Boot (última versión estable)
+- Java 21
+- Spring Boot 3.5.3
 - Spring Web
 - Spring Data JPA / Spring Data MongoDB
 - H2 Database (nivel 1)
